@@ -1,0 +1,284 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+div.name{
+    background-color: #40a4f0;
+    padding: 20px;
+    text-align: right;
+  }
+ul.name {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 10;
+}
+.btn{
+    border:none;
+    background-color:inherit;
+    padding:14px 28px;
+    font-size:16px;
+    cursor: pointer;
+    display:inline-block;
+}
+.btn:hover {background: #eee;
+    cursor: pointer;}
+
+.home {color:#000;}
+.about {color: #000;}
+.skill {color: #000;}
+.achievement{color:#000}
+.contact{color:#000}
+.downloadcv{color:#000}
+h6{
+    font-family: "Times New Roman", Times,serif;
+    color:#0f0b58;
+    font-size: 40px;
+}
+.name h2{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2 span {
+    color: #ff0000;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+}
+.name li:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #070509;
+}
+.text-container {
+    text-align: right;
+     margin-top: 20px;
+     padding:0 20px;
+     bottom:0;
+     right:0;
+ }
+ p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin:0;
+    padding: 8px 20px;
+    display: flex;
+    align-items:right;
+    min-height: 10vh;
+    height:100hv;
+    color:#ffffff;
+    text-align:right;
+}
+.flex-1 {
+    text-align:center;
+}
+h1 {
+    font-size: 32px;
+    margin-top: 0;
+    text-align:center;
+    padding: 20px;
+}
+
+h1 span {
+    color: #ff0000;
+   /* font-size:large;*/
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}.about p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    color:#070509;
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    text-align:center;
+}
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 10%;
+    position: relative;
+    margin:0 10px;
+}
+.image {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+    
+}
+h7{
+    font-size:32px;
+    margin-top:1px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    color: #ff0000;
+}
+h7 span{
+    color:#000;
+}
+p{
+    color:#000;
+    text-align: center;
+    justify-content: center;
+}
+.talent {
+    background-color: #f2f2f2;
+    color:crimson;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .section-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  section.talent .card-wrapper .card:hover
+  {
+    background:powderblue;
+  }
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color:#8888;
+    text-align: center;
+  }
+  section.achievement{
+    background: #F2F2F2;
+    text-align: center;
+    padding:20px;
+}
+section.achievement .card-wrapper{
+    display:flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.achievement .card-wrapper .card{
+    position: relative;
+    height: 250px;
+}
+section.achievement .card-wrapper .card .overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(61, 207, 211, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: #F2F2F2;
+    opacity: 0;
+    transition: all .3s ease;
+}
+section.achievement .card-wrapper .card:hover .overlay{
+    opacity: 1;
+}
+
+section.achievement .card-wrapper .card .overlay p{
+    color:#070606;
+    text-decoration: none;
+}
+section.achievement .card-wrapper .card img{
+    height: 100%;
+    width: 100%;
+}
+h8{
+    font-weight: bold;
+    font-size:32px;
+    margin-top:1px;
+    color:#ff0000;
+    text-align: center;
+}
+h8 span{
+    color: #000;
+    text-align: center;
+}
+h8 p{
+    color:#000;
+}
+
+#contact {
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #contact form {
+    margin-top: 20px;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #contact input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: #40a4f0;
+  }
